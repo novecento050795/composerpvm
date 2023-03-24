@@ -9,6 +9,7 @@
 
 ## Usage example
 ```
+composerpvm "install" 8.0
 composerpvm "upgrade vendor-name/package-name" 8.0
 ```
 Where 8.0 is php version
