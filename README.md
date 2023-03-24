@@ -4,7 +4,7 @@
 1. ```wget -O composerpvm.tar.gz https://github.com/novecento050795/composerpvm/archive/refs/tags/1.0.1.tar.gz```
 2. ```tar -xf composerpvm.tar.gz```
 3. ```path=$(which composer)```
-4. ```mv composerpvm-1.0.1/composerpvm.sh $(which composer)/composerpvm```
+4. ```mv composerpvm-1.0.1/composerpvm.sh ${composer_path%"/composer"}/composerpvm```
 5. ```rm composerpvm.tar.gz```
 6. ```rm -rf composerpvm-1.0.1```
 
